@@ -1,5 +1,5 @@
 import React from 'react';
-import './Livro.css'; // Importando o arquivo CSS
+import './livro.css'; // Importando o arquivo CSS
 import imagemCoracaoImortal from '../img/Captura de tela 2025-02-05 223643.png';
 import imagemBatidasCoracao from '../img/Screenshot_20250207-133958 (1).png';
 import imagemDiarioPesadelos from '../img/Screenshot_20250207-134022.png';
