@@ -1,0 +1,91 @@
+/* Estilo do header */
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column; /* Empilha os elementos (logo em cima, links embaixo) */
+  align-items: center; /* Centraliza tudo horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  padding: 20px 0;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+
+
+  font-weight: bold;
+  color: #fefefe;
+  margin-bottom: 10px; /* Espaço entre a logo e os links */
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Navegação */
+.nav-links {
+  display: flex;
+  gap: 27px;
+  justify-content: center; /* Centraliza os links */
+  padding: 0;
+}
+
+/* Links */
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 2.5em;
+  }
+
+  .nav-links {
+    gap: 35px;
+  }
+
+  .nav-link {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 2em;
+  }
+
+  .nav-links {
+    flex-direction: row; /* Mantém os links em linha */
+    gap: 29px;
+    justify-content: center; /* Garante que os links fiquem centralizados */
+    align-items: center; /* Alinha verticalmente os itens */
+  }
+
+  .nav-link {
+    font-size: 1.1em;
+  }
+
+  /* Remova ou ajuste a flexibilidade desnecessária para o header */
+  .header {
+    height: auto; /* Permite que o header tenha altura dinâmica */
+    justify-content: flex-start; /* Ajuste para alinhar os itens no topo, se necessário */
+    padding: 20px 0;
+    gap: 10px;
+    
+
+   
+  }
+}

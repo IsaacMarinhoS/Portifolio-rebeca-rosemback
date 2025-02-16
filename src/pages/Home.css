@@ -1,0 +1,144 @@
+/* Reset para garantir que o layout ocupe toda a tela e evitar rolagem indesejada */
+body {
+  height: 100%; /* Ocupa toda a altura da tela */
+  margin: 0; /* Remove qualquer margem padrão */
+  padding-top: 0px; /* Mesmo valor da altura do header */
+  background-color: rgb(255, 255, 255);
+}
+
+/* Estilização do texto de introdução */
+.introducao {
+  margin-top: -8%;
+  flex: 1; /* Faz o texto ocupar o espaço restante */
+  font-size: 1.5em;
+  line-height: 1.6;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(255, 255, 255); /* Pode remover ou ajustar conforme necessário */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Centraliza apenas o <strong> dentro da introdução */
+.introducao strong {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 120%;
+  font-weight: bold;
+ 
+}
+
+/* Estilo do contêiner geral */
+.introducao-container {
+  display: flex; /* Alinha o texto e a imagem lado a lado */
+  justify-content: space-between; /* Espaço entre o texto e a imagem */
+  align-items: center; /* Alinha verticalmente no centro */
+  margin-top: 10%;
+  padding: 30px;
+  margin-left: 2%;
+}
+
+/* Estilo dos ícones de redes sociais */
+.social-icons {
+  display: flex; /* Usar flexbox para alinhar os ícones */
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  margin-top: 20px; /* Espaçamento entre o texto e os ícones */
+}
+
+.social-icon {
+  width: 40px; /* Tamanho do ícone */
+  height: 40px;
+  margin: 0 10px; /* Espaçamento entre os ícones */
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Efeito de zoom no hover */
+}
+
+/* Estilo da imagem */
+.imagem {
+  margin-top: -10%;
+  width: 20%; /* A imagem ocupará 30% da largura */
+  height: auto;
+  margin-left: 200px; /* Espaço entre o texto e a imagem */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}
+
+.imagem img {
+  width: 100%; /* A imagem ocupará toda a largura da div */
+  height: auto;
+  border-radius: 20px; /* Remover borda arredondada */
+  box-shadow: none; /* Remover a sombra da imagem */
+  margin-left: -20%;
+}
+
+/* Responsividade para dispositivos menores */
+@media screen and (max-width: 1300px) {
+  .introducao-container {
+    flex-direction: column; /* Coloca o texto e a imagem em coluna */
+    align-items: center; /* Centraliza os itens */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .imagem {
+    width: 50%; /* Ajusta o tamanho da imagem */
+    margin: 20px 0; /* Espaçamento entre o texto e a imagem */
+  }
+
+  .imagem img {
+    display: block; /* Remove espaços extras ao redor da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introducao-container {
+    flex-direction: column; /* Coloca o texto e a imagem em coluna em dispositivos menores */
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  /* Ajuste no tamanho do texto */
+  .introducao {
+    font-size: 1.2em; /* Pode ajustar conforme necessário */
+  }
+
+  /* Ajuste na imagem em dispositivos menores */
+  .imagem {
+    width: 70%; /* Aumenta a largura da imagem em dispositivos menores */
+    margin-left: 0; /* Remove o espaço à esquerda da imagem */
+    margin-top: 20px; /* Adiciona um pequeno espaço acima da imagem */
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .introducao-container {
+    padding-top: 50px; /* Adiciona um espaçamento superior */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introducao-container {
+    flex-direction: column; /* Garante que a imagem vá para baixo do texto */
+    align-items: center; /* Centraliza tudo */
+    padding-top: 0px; /* Aumenta o espaçamento do topo */
+  }
+
+  .introducao {
+    font-size: 1em; /* Reduz um pouco o tamanho do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Garante um espaçamento interno */
+  }
+
+  .imagem {
+    width: 70%; /* Ajusta o tamanho da imagem */
+    margin-top: 20px; /* Dá um espaçamento entre o texto e a imagem */
+  }
+
+  .imagem img {
+    width: 100%; /* Garante que a imagem não ultrapasse a tela */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+  }
+}
