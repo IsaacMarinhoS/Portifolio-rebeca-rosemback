@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contatos.css"; // Importa o CSS
+import "./contatos.css"; // Importa o CSS
 
 import phoneIcon from "../img/whatsapp (1).png"; // Ícone do WhatsApp
 import emailIcon from "../img/e-mail.png"; // Ícone do E-mail

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sobre.css"; // Se você tiver um CSS separado para personalizar a seção
+import "./sobre.css"; // Se você tiver um CSS separado para personalizar a seção
 import foto1 from '../img/IMG_0560.jpg';
 
 const Sobre = () => {
