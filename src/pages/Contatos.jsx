@@ -40,7 +40,7 @@ const Contatos = () => {
    
           {/* Card TikTok */}
           <div className="contato-card">
-            <a href="https://www.tiktok.com/@byrosemback?_t=ZM-8tmmaB6Iljb&_r=1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@rebecarosembackx?_t=ZM-8uA10bdpKbv&_r=1" target="_blank" rel="noopener noreferrer">
               <h3><img src={tiktokIcon} alt="Ícone do TikTok" className="contato-icon" /> TikTok</h3>
               <p>@byrosemback</p>
             </a>
