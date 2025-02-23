@@ -32,19 +32,12 @@ const Contatos = () => {
           {/* Card Instagram - Perfil pessoal */}
           <div className="contato-card">
             <a href="https://www.instagram.com/rebecarosemback?igsh=MWRkdm9hdHc1b3Vocg==" target="_blank" rel="noopener noreferrer">
-              <h3><img src={instagramIcon} alt="Ícone de Instagram" className="contato-icon" /> Instagram - Perfil pessoal</h3>
+              <h3><img src={instagramIcon} alt="Ícone de Instagram" className="contato-icon" /> Instagram - Instagram </h3>
               <p>@rebecarosemback</p>
             </a>
           </div>
 
-          {/* Card Instagram - Perfil profissional */}
-          <div className="contato-card">
-            <a href="https://www.instagram.com/byrosemback?igsh=MWZvdDNlNjBjNThqMw==" target="_blank" rel="noopener noreferrer">
-              <h3><img src={instagramIcon} alt="Ícone de Instagram" className="contato-icon" /> Instagram - Perfil profissional</h3>
-              <p>@byrosemback</p>
-            </a>
-          </div>
-
+   
           {/* Card TikTok */}
           <div className="contato-card">
             <a href="https://www.tiktok.com/@byrosemback?_t=ZM-8tmmaB6Iljb&_r=1" target="_blank" rel="noopener noreferrer">

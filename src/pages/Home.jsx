@@ -23,7 +23,7 @@ function Home() {
 
             {/* Redes sociais */}
             <div className="social-icons">
-              <a href="https://www.instagram.com/byrosemback?igsh=MWZvdDNlNjBjNThqMw== " target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/rebecarosemback?igsh=MWRkdm9hdHc1b3Vocg==" target="_blank" rel="noopener noreferrer">
                 <img src={instagramIcon} alt="Instagram" className="social-icon" />
               </a>
               <a href="https://wa.me/5524992440954?text=Olá%20gostaria%20de%20mais%20informações!" target="_blank" rel="noopener noreferrer">
