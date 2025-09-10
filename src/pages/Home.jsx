@@ -15,10 +15,19 @@ function Home() {
         <div className="introducao">
           <div className="texto">
             <p className="welcome-text">
-              <strong>Oi, pessoas! Bem-vindas ao meu espaço!</strong>
+              <strong>✨ Oi, que bom ter você aqui! ✨</strong>
             </p>
             <p>
-            Esse é o seu ponto de encontro com o meu mundo que envolve meu amor por literatura, cinema e teatro. Descubra meus livros físicos e digitais e mergulhe em um espaço dedicado à arte, onde tudo o que é belo ganha vida.
+              Sou Rebeca Rosemback, escritora, publicitária e social media apaixonada por contar histórias. 
+              Esse é o meu espaço, onde compartilho meu amor pela literatura, pelo cinema e pelo teatro, 
+              além dos meus projetos de comunicação e produção de vídeos.
+            </p>
+            <p>
+              Aqui você vai conhecer meu livro físico e meus livros digitais, acompanhar meus conteúdos literários 
+              e mergulhar em um universo dedicado à arte, onde tudo o que é belo ganha vida.
+            </p>
+            <p>
+              Explore, inspire-se e vamos juntos transformar ideias em histórias.
             </p>
 
             {/* Redes sociais */}
@@ -27,7 +36,7 @@ function Home() {
                 <img src={instagramIcon} alt="Instagram" className="social-icon" />
               </a>
               <a href="https://wa.me/5524992440954?text=Olá%20gostaria%20de%20mais%20informações!" target="_blank" rel="noopener noreferrer">
-                <img src={facebook} alt="Facebook" className="social-icon" />
+                <img src={facebook} alt="WhatsApp" className="social-icon" />
               </a>
             </div>
           </div>

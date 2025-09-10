@@ -1,0 +1,107 @@
+/* Container geral */
+.servicos-container {
+  background-color: #f6e9e1;
+  padding: 20px 20px;
+  font-family: "Playfair Display", serif;
+  color: #222;
+  text-align: center;
+}
+
+/* Introdução principal */
+.servicos-intro h1 {
+  font-size: 2.8em; /* aumenta um pouco */
+  font-weight: 700;
+  line-height: 1.3;
+  color: #242424; /* cor de destaque suave, combina com identidade */
+    margin-bottom: 50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Cards de serviço */
+.servico-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px 25px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+/* Título do card */
+.servico-card h2 {
+  font-size: 1.7em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Descrição do card */
+.servico-card p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Container do botão WhatsApp */
+.whatsapp-container {
+  margin-top: 60px;
+}
+
+/* Texto acima do botão */
+.whatsapp-container p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+/* Botão WhatsApp estilizado */
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Efeito hover do botão */
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+  .servicos-intro h1 {
+    font-size: 2em;
+  }
+
+  .servico-card {
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .servicos-intro h1 {
+    font-size: 1.8em;
+  }
+
+  .servico-card {
+    max-width: 90%;
+  }
+
+  .whatsapp-container p {
+    font-size: 1.2em;
+  }
+
+  .whatsapp-button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+  }
+}

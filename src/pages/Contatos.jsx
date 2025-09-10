@@ -12,9 +12,9 @@ const Contatos = () => {
       <div className="contato-container">
         <div className="contato">Entre em Contato</div>
         
-        <div className="contato-cards">
+        <div className="contato-cards ">
           {/* Card WhatsApp */}
-          <div className="contato-card">
+          <div className="contato-card cor">
             <a href="https://wa.me/5524992440954?text=Olá%20gostaria%20de%20mais%20informações!" target="_blank" rel="noopener noreferrer">
               <h3><img src={phoneIcon} alt="Ícone de Celular" className="contato-icon" /> WhatsApp</h3>
               <p>(24) 99244-0954</p>
@@ -22,15 +22,15 @@ const Contatos = () => {
           </div>
 
           {/* Card E-mail */}
-          <div className="contato-card">
-            <a href="mailto:rebecarosembackcontato@gmail.com">
+          <div className="contato-card branco">
+            <a href="mailto:rosembackrebeca@gmail.com">
               <h3><img src={emailIcon} alt="Ícone de E-mail" className="contato-icon" /> E-mail</h3>
-              <p>rebecarosembackcontato@gmail.com</p>
+              <p>rosembackrebeca@gmail.com</p>
             </a>
           </div>
 
           {/* Card Instagram - Perfil pessoal */}
-          <div className="contato-card">
+          <div className="contato-card cor">
             <a href="https://www.instagram.com/rebecarosemback?igsh=MWRkdm9hdHc1b3Vocg==" target="_blank" rel="noopener noreferrer">
               <h3><img src={instagramIcon} alt="Ícone de Instagram" className="contato-icon" /> Instagram - Instagram </h3>
               <p>@rebecarosemback</p>
@@ -39,10 +39,10 @@ const Contatos = () => {
 
    
           {/* Card TikTok */}
-          <div className="contato-card">
-            <a href="https://www.tiktok.com/@rebecarosembackx?_t=ZM-8uA10bdpKbv&_r=1" target="_blank" rel="noopener noreferrer">
+          <div className="contato-card branco">
+            <a href="https://www.tiktok.com/@rebecarosemback?_t=ZM-8zZ0Ict76KT&_r=1" target="_blank" rel="noopener noreferrer">
               <h3><img src={tiktokIcon} alt="Ícone do TikTok" className="contato-icon" /> TikTok</h3>
-              <p>@byrosemback</p>
+              <p>@rebecarosemback</p>
             </a>
           </div>
         </div>

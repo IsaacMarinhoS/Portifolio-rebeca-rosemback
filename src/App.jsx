@@ -4,7 +4,9 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contatos from "./pages/Contatos";
 import Livro from "./pages/livro";
+import Servicos from "./pages/servicos";
 import Header from "./components/Header";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contatos" element={<Contatos />} />
         <Route path="/livro" element={<Livro />} />
+        <Route path="/servicos" element={<Servicos />} />
       </Routes>
     </Router>
   );

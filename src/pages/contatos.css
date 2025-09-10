@@ -25,7 +25,17 @@
   margin-top: 20px;
 }
 
-.contato-card {
+.contato-card.cor{
+  background: #c87b83;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contato-card.branco{
   background: #ffffff;
   padding: 20px;
   border-radius: 12px;

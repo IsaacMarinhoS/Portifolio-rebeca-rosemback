@@ -28,6 +28,12 @@ function Header() {
         ) : (
           <Link to="/livro" className="nav-link">Livro</Link>
         )}
+        {location.pathname === "/servicos" ? (
+          <Link to="/" className="nav-link">Voltar</Link>
+        ) : (
+          <Link to="/servicos" className="nav-link">Serviços</Link>
+        )}
+
       </nav>
     </header>
   );
