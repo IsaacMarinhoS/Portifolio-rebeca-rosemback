@@ -6,6 +6,7 @@ import Contatos from "./pages/Contatos";
 import Livro from "./pages/livro";
 import Servicos from "./pages/servicos";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/livro" element={<Livro />} />
         <Route path="/servicos" element={<Servicos />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
