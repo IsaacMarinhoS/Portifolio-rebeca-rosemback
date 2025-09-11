@@ -1,6 +1,6 @@
 /* Estilo do header */
 .header {
-  width: 50%;
+  width: auto;
   height: 150px;
   background-color: #e8b4b8;
   display: flex;
