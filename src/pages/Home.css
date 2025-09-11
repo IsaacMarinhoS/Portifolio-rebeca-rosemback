@@ -1,4 +1,4 @@
-/* Reset para garantir que o layout ocupe toda a tela e evitar rolagem indesejada */
+
 body {
   height: 100%; /* Ocupa toda a altura da tela */
   margin: 0; /* Remove qualquer margem padrão */
